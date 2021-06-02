@@ -1,0 +1,72 @@
+body {
+    background-color: #1BA1AD;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-position: -20% -40vh, 120% 40vh;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#container {
+    width: 450px;
+    height: 60vh;
+}
+
+header {
+    height: 30%;
+    background-image: url("../images/bg-pattern-card.svg");
+    border-radius: 20px 20px 0 0;
+}
+#profil {
+    display: flex;
+    flex-direction: column;
+    height: 45%;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+}
+#profil img {
+    position: relative;
+    top: -70px;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 5px solid white;
+}
+#profil div{
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(36, 9, 34);
+    margin-bottom: 1.5rem;
+    margin-top: -1.5rem;
+}
+#profil span {
+    color: lightgray;
+    margin-left: 1rem;
+    font-weight: normal;
+}
+#profil p{
+    color: gray;
+    font-size: 1.3rem;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+footer div {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(36, 9, 34);
+}
+footer span {
+    font-size: 1rem;
+    color: gray;
+}
